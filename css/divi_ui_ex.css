@@ -1,0 +1,21 @@
+@media all and (min-width:980px) {
+.et_pb_modal_settings_container {
+    top: 40px;
+    left: 10px;
+    bottom: 10px;
+    width: calc(100% - 20px);
+    margin: 0;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+.et_pb_modal_settings_container .et-pb-options-tabs-links {
+    width: 100%;
+}
+
+.et_pb_modal_settings_container #wp-et_pb_content-editor-container .mce-edit-area {
+    max-height: calc(100vh - 400px);
+    overflow-y: scroll;
+}
+}
